@@ -6,19 +6,19 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div className='flex items-center gap-4 bg-white h-[100px] navbar'>
-            <div className='w-[200px] h-[90px] ml-[10px]'>
+            <div className='w-[200px] h-[90px] ml-[30px]'>
                 <img src="https://i.ibb.co/wpDTRss/logo.png" alt="" />
             </div>
             <div className='pl-10'>
-                <Link className='pr-8 font-bold text-lg' to='/men'>HOME</Link>
-                <Link className='pr-8 font-bold text-lg' to='/women'>ABOUT US</Link>
-                <Link className='pr-8 font-bold text-lg' to='/kids'>SERVICES</Link>
-                <Link className='pr-8 font-bold text-lg' to='/shop'>LATEST NEWS</Link>
-                <Link className='pr-8 font-bold text-lg' to='/contactus'>CONTACT US</Link>
+                <Link className='pr-8 font-bold text-md' to='/men'>HOME</Link>
+                <Link className='pr-8 font-bold text-md' to='/women'>ABOUT US</Link>
+                <Link className='pr-8 font-bold text-md' to='/kids'>SERVICES</Link>
+                <Link className='pr-8 font-bold text-md' to='/shop'>LATEST NEWS</Link>
+                <Link className='pr-8 font-bold text-md' to='/contactus'>CONTACT US</Link>
             </div>
             <div className='flex flex-row-reverse items-center pl-4'>
                 <p className='absolute pr-6 text-lg'><AiOutlineSearch></AiOutlineSearch></p>
-                <input className='bg-slate-100 border rounded w-[280px] h-[30px] pl-5' type="text" placeholder='Search here' />
+                <input className='bg-slate-100 border rounded w-[300px] h-[30px] pl-5' type="text" placeholder='Search here' />
             </div>
             <div className='flex items-center gap-6 pl-3'>
                 <img className='w-[26px] h-[23px]' src="https://i.ibb.co/hDGy7s8/Vector-2.png" alt="" />

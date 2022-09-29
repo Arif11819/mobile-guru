@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer-div'>
             <div className='flex items-center gap-6 pt-6 pl-12 footer-logos'>
                 <img src="https://i.ibb.co/z8nkR2r/logo2.png" alt="" />
-                <h1 className='text-white text-5xl'>Mobile GuRu</h1>
+                <h1 className='text-white text-5xl'>Repair GuRu</h1>
             </div>
             <div className='flex px-28 pl-64 gap-24 mt-8'>
                 <div className='flex flex-col text-white mt-10 gap-3'>

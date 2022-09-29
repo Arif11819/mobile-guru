@@ -5,7 +5,6 @@ import { BsEmojiLaughing } from "react-icons/bs";
 const AboutUs = () => {
     return (
         <div className='mt-32 px-32'>
-            <h1 className='text-4xl text-start font-semibold'>About Us</h1>
             <div className='flex mt-10'>
                 <div className=''>
                     <img className='w-[1800px]' src="https://i.ibb.co/ZJywdRc/weare.jpg" alt="" />
