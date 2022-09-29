@@ -22,8 +22,8 @@ const Review = () => {
                     <p className='flex justify-center items-center mx-auto pl-5'>Not really a website, but the private community of doers, not wantrepreneurs. Here you can leverage the business strategy, share and get knowledge of 1,000 high-revenue store owners.</p>
                 </div>
                 <div className='flex flex-col gap-4 justify-center items-center w-[400px] h-[240px] mx-auto review-card'>
-                    <img className='w-[100px] h-[100px]' src="https://i.ibb.co/PYxf0zK/Ellipse-60.png" alt="" />
-                    <h2 className='font-bold'>Linna Gomez</h2>
+                    <img className='w-[100px] h-[100px]' src="https://i.ibb.co/x5vNzjX/69.jpg" alt="" />
+                    <h2 className='font-bold'>Sachin Rana</h2>
                     <div className='flex items-center gap-3'>
                         <div className='flex'>
                             <AiFillStar></AiFillStar>
