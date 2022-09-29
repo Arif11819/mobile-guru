@@ -5,37 +5,37 @@ import { AiOutlineMail, AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp
 const Footer = () => {
     return (
         <div className='footer-div'>
-            <div className='flex items-center gap-6 pt-6 pl-12 footer-logo'>
-                <img src="https://i.ibb.co/wpDTRss/logo.png" alt="" />
+            <div className='flex items-center gap-6 pt-6 pl-12 footer-logos'>
+                <img src="https://i.ibb.co/z8nkR2r/logo2.png" alt="" />
                 <h1 className='text-white text-5xl'>Mobile GuRu</h1>
             </div>
-            <div className='flex px-28 pl-40 gap-24 mt-8'>
+            <div className='flex px-28 pl-64 gap-24 mt-8'>
                 <div className='flex flex-col text-white mt-10 gap-3'>
-                    <h2 className='text-2xl font-semibold'>Women</h2>
-                    <h2 className='text-sm'>All Women</h2>
-                    <h2 className='text-sm'>Skirts</h2>
-                    <h2 className='text-sm'>T-Shirts</h2>
-                    <h2 className='text-sm'>Tops</h2>
-                    <h2 className='text-sm'>Jackets</h2>
+                    <h2 className='text-2xl font-semibold'>Phone Parts</h2>
+                    <h2 className='text-sm'>All phone parts</h2>
+                    <h2 className='text-sm'>Phone</h2>
+                    <h2 className='text-sm'>Chips</h2>
+                    <h2 className='text-sm'>Display</h2>
+                    <h2 className='text-sm'>Touch</h2>
                 </div>
                 <div>
                     <div className='flex flex-col text-white mt-10 gap-3'>
-                        <h2 className='text-2xl font-semibold'>Men</h2>
-                        <h2 className='text-sm'>All Men</h2>
-                        <h2 className='text-sm'>Skirts</h2>
-                        <h2 className='text-sm'>T-Shirts</h2>
-                        <h2 className='text-sm'>Shorts</h2>
-                        <h2 className='text-sm'>Jackets</h2>
+                        <h2 className='text-2xl font-semibold'>Laptop Parts</h2>
+                        <h2 className='text-sm'>All laptop parts</h2>
+                        <h2 className='text-sm'>Display</h2>
+                        <h2 className='text-sm'>Keyboard</h2>
+                        <h2 className='text-sm'>Ram</h2>
+                        <h2 className='text-sm'>CPU</h2>
                     </div>
                 </div>
                 <div>
                     <div className='flex flex-col text-white mt-10 gap-3'>
-                        <h2 className='text-2xl font-semibold'>Kids</h2>
-                        <h2 className='text-sm'>All Kids</h2>
-                        <h2 className='text-sm'>Skirts</h2>
-                        <h2 className='text-sm'>T-Shirts</h2>
-                        <h2 className='text-sm'>Shorts</h2>
-                        <h2 className='text-sm'>Jackets</h2>
+                        <h2 className='text-2xl font-semibold'>Data Recovery</h2>
+                        <h2 className='text-sm'>All data</h2>
+                        <h2 className='text-sm'>Phone</h2>
+                        <h2 className='text-sm'>Laptop</h2>
+                        <h2 className='text-sm'>Tablets</h2>
+                        <h2 className='text-sm'>MAC</h2>
                     </div>
                 </div>
                 <div>
@@ -56,16 +56,6 @@ const Footer = () => {
                         <h2 className='text-sm'>Buying guides</h2>
                         <h2 className='text-sm'>New arrivals</h2>
                         <h2 className='text-sm'>Clearence</h2>
-                    </div>
-                </div>
-                <div>
-                    <div className='flex flex-col text-white mt-10 gap-3 text-start'>
-                        <h2 className='text-2xl font-semibold'>Stay In Touch</h2>
-                        <h2 className='text-sm'>Stay in touch to get special offers,free giveaways <br /> and once in a lifetime deals</h2>
-                        <div className='flex flex-row items-center pt-2'>
-                            <p className='absolute pr-6 pl-4 text-lg'><AiOutlineMail></AiOutlineMail></p>
-                            <input className='border rounded w-[320px] h-[30px] pl-12 footer-input' type="text" placeholder='Enter your email' />
-                        </div>
                     </div>
                 </div>
             </div>
