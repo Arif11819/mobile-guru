@@ -1,13 +1,15 @@
 import React from 'react';
 import { AiFillTrophy, AiOutlineLaptop } from "react-icons/ai";
 import { BsEmojiLaughing } from "react-icons/bs";
+import weare from '../../../images/weare.jpg';
+import sign from '../../../images/sign.png';
 
 const AboutUs = () => {
     return (
         <div className='mt-32 px-32'>
             <div className='flex mt-10'>
-                <div className=''>
-                    <img className='w-[1800px]' src="https://i.ibb.co/ZJywdRc/weare.jpg" alt="" />
+                <div>
+                    <img className='w-[1800px]' src={weare} alt="" />
                 </div>
                 <div className='pl-10 text-start'>
                     <h2 className='text-3xl font-semibold'>WE ARE <span className='text-info'>CERTIFIED</span> SPECIALISTS</h2>
@@ -37,7 +39,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className='pt-8'>
-                        <img src="https://i.ibb.co/jW7KWkm/sign.png" alt="" />
+                        <img src={sign} alt="" />
                     </div>
                 </div>
             </div>
